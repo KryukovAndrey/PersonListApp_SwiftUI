@@ -13,6 +13,12 @@
 		550FF63F24D9E29C005FFDA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550FF63E24D9E29C005FFDA9 /* Assets.xcassets */; };
 		550FF64224D9E29C005FFDA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550FF64124D9E29C005FFDA9 /* Preview Assets.xcassets */; };
 		550FF64524D9E29C005FFDA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550FF64324D9E29C005FFDA9 /* LaunchScreen.storyboard */; };
+		550FF64D24D9E371005FFDA9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FF64C24D9E371005FFDA9 /* Person.swift */; };
+		550FF64F24D9E4BA005FFDA9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FF64E24D9E4BA005FFDA9 /* DataManager.swift */; };
+		550FF65124D9EFE8005FFDA9 /* ShortContactListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FF65024D9EFE8005FFDA9 /* ShortContactListScreen.swift */; };
+		550FF65324D9F09A005FFDA9 /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FF65224D9F09A005FFDA9 /* PersonRow.swift */; };
+		550FF65524D9F7CC005FFDA9 /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FF65424D9F7CC005FFDA9 /* ContactDetails.swift */; };
+		550FF65724DA07DE005FFDA9 /* FullContactListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FF65624DA07DE005FFDA9 /* FullContactListScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		550FF64124D9E29C005FFDA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		550FF64424D9E29C005FFDA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		550FF64624D9E29C005FFDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550FF64C24D9E371005FFDA9 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		550FF64E24D9E4BA005FFDA9 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		550FF65024D9EFE8005FFDA9 /* ShortContactListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortContactListScreen.swift; sourceTree = "<group>"; };
+		550FF65224D9F09A005FFDA9 /* PersonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRow.swift; sourceTree = "<group>"; };
+		550FF65424D9F7CC005FFDA9 /* ContactDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
+		550FF65624DA07DE005FFDA9 /* FullContactListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullContactListScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +70,13 @@
 			children = (
 				550FF63824D9E298005FFDA9 /* AppDelegate.swift */,
 				550FF63A24D9E298005FFDA9 /* SceneDelegate.swift */,
+				550FF64C24D9E371005FFDA9 /* Person.swift */,
+				550FF64E24D9E4BA005FFDA9 /* DataManager.swift */,
+				550FF65224D9F09A005FFDA9 /* PersonRow.swift */,
 				550FF63C24D9E298005FFDA9 /* ContentView.swift */,
+				550FF65024D9EFE8005FFDA9 /* ShortContactListScreen.swift */,
+				550FF65424D9F7CC005FFDA9 /* ContactDetails.swift */,
+				550FF65624DA07DE005FFDA9 /* FullContactListScreen.swift */,
 				550FF63E24D9E29C005FFDA9 /* Assets.xcassets */,
 				550FF64324D9E29C005FFDA9 /* LaunchScreen.storyboard */,
 				550FF64624D9E29C005FFDA9 /* Info.plist */,
@@ -147,8 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				550FF63924D9E298005FFDA9 /* AppDelegate.swift in Sources */,
+				550FF65524D9F7CC005FFDA9 /* ContactDetails.swift in Sources */,
+				550FF64F24D9E4BA005FFDA9 /* DataManager.swift in Sources */,
+				550FF65324D9F09A005FFDA9 /* PersonRow.swift in Sources */,
+				550FF65724DA07DE005FFDA9 /* FullContactListScreen.swift in Sources */,
 				550FF63B24D9E298005FFDA9 /* SceneDelegate.swift in Sources */,
+				550FF64D24D9E371005FFDA9 /* Person.swift in Sources */,
 				550FF63D24D9E298005FFDA9 /* ContentView.swift in Sources */,
+				550FF65124D9EFE8005FFDA9 /* ShortContactListScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
